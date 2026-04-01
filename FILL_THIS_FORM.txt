@@ -1,0 +1,331 @@
+================================================================================
+        PORTFOLIO WEBSITE - CONTENT FORM
+        Filled out with Muhammad Anss's information
+================================================================================
+
+================================================================================
+1. PERSONAL INFO
+================================================================================
+
+Full Name: Muhammad Anss
+Title/Tagline: Mechatronics & Control Engineer | Robotics Enthusiast | Maker
+Short Bio: Dedicated Mechatronics Engineering student (Rank 1st, 3.84 CGPA) who
+loves building real-world robotic systems from scratch. I enjoy combining
+mechanical design, electronics, and coding to solve practical problems. With
+hands-on experience in autonomous navigation, PLC automation, and AI, I actively
+share my technical skills through community workshops and love learning from
+global engineering environments.
+
+Email: muhammadanss0907@gmail.com
+Phone: +92 331 4293657
+Location: Lahore, Punjab, Pakistan
+Date of Birth: July 9, 2003
+
+LinkedIn URL: https://linkedin.com/in/muhammad-anss-6a6207281
+GitHub URL: https://github.com/anss0907
+Twitter/X URL:
+YouTube URL:
+Other Social Link:
+
+================================================================================
+2. HERO SECTION
+================================================================================
+
+Headline: I Build Intelligent Machines
+Sub-headline: Mechatronics & Control Engineer passionate about robotics, AI, and embedded systems
+Call-to-Action Button Text: View My Work / Download CV / Download Resume
+
+================================================================================
+3. ABOUT ME
+================================================================================
+
+Forward-thinking Mechatronics and Control Engineering student with a top-ranking
+3.84 CGPA (Rank 1st in Department/Batch) and a strong foundation in mathematics.
+Passionate about autonomous systems, ROS 2, and embedded electronics. Currently
+developing an advanced, vision-capable mobile robot for geriatric care, combining
+hardware integration with sophisticated human-robot interaction.
+
+I enjoy combining mechanical design, electronics, and coding to solve practical
+problems. With hands-on experience in autonomous navigation, PLC automation,
+and AI, I actively share my technical skills through community workshops and
+love learning from global engineering environments. Highly motivated to continue
+learning and contribute to cutting-edge engineering solutions.
+
+When I'm not engineering, I enjoy playing snooker and chess.
+
+================================================================================
+4. SKILLS
+================================================================================
+
+--- Robotics & Kinematics ---
+Skill 1: ROS 2 (Humble)
+Skill 2: ROS 1
+Skill 3: Nav2
+Skill 4: SLAM
+Skill 5: TF2
+Skill 6: Gazebo
+Skill 7: 6-DOF Robot Kinematics/Dynamics
+Skill 8: Path Planning
+
+--- Control & Automation ---
+Skill 1: PID
+Skill 2: LQR
+Skill 3: State-Space
+Skill 4: Industrial Pneumatics
+Skill 5: PLC Programming (All 5 Languages, Ladder Logic)
+Skill 6: Control Algorithms
+
+--- Embedded & Hardware ---
+Skill 1: Jetson Orin Nano Super
+Skill 2: Jetson Nano
+Skill 3: STM32 (HAL)
+Skill 4: TIVA C (Bare Metal) / TM4C123GH6PM
+Skill 5: Raspberry Pi
+Skill 6: Arduino Uno
+Skill 7: ESP32
+Skill 8: ESP8266
+
+--- Programming, Data & AI ---
+Skill 1: C++
+Skill 2: Python
+Skill 3: R
+Skill 4: MATLAB
+Skill 5: PyTorch (CNN-RNN)
+Skill 6: OpenCV
+Skill 7: MediaPipe
+Skill 8: pandas
+Skill 9: Scikit-learn
+Skill 10: Scipy
+Skill 11: Numpy
+Skill 12: Matplotlib
+Skill 13: Machine Learning
+Skill 14: Digital Signal Processing
+Skill 15: Voice Processing
+
+--- CAD, Simulation & Mechanical ---
+Skill 1: SolidWorks (Stress/Motion Analysis)
+Skill 2: AutoCAD
+Skill 3: Simulink
+Skill 4: Simscape
+Skill 5: CNC Machining
+Skill 6: PCB Design (Proteus, EasyEDA)
+
+--- Software & Tools ---
+Tool 1: Git / GitHub
+Tool 2: Linux (Ubuntu)
+Tool 3: VS Code
+Tool 4: MATLAB/Simulink
+Tool 5: Proteus
+Tool 6: EasyEDA
+
+================================================================================
+5. EDUCATION
+================================================================================
+
+--- Degree 1 (Most Recent) ---
+Degree Title: B.S. Mechatronics and Control Engineering
+University/Institution: University of Engineering and Technology (UET), Lahore
+Duration: Dec 2022 – Present (7th Semester, 3rd Year)
+GPA: 3.84/4.00 (Rank: 1st in Department/Batch)
+Medium of Instruction: English
+Key Subjects: Control Systems, Robotics, Embedded Systems, Data Structures and
+Algorithms, Mechanism and Machine Design, Probability and Statistics.
+Notable Achievement: Highest CGPA in the department
+
+--- Degree 2 ---
+Degree Title: Intermediate, FSC (Pre-Engineering)
+University/Institution: Punjab College of Commerce (Chouburji Campus), Lahore
+Board: Board of Intermediate & Secondary Education, Lahore
+Duration: 2020 – 2022
+Marks: 949/1100 (88%, A+)
+Core Subjects: Mathematics, Physics, Chemistry
+
+--- Degree 3 ---
+Degree Title: Matriculation in Science
+University/Institution: American Lycetuff Junior and Upper High School for Boys, Lahore
+Board: Board of Intermediate & Secondary Education, Lahore
+Duration: Completed 2020
+Marks: 969/1100 (86%, A+)
+Core Subjects: Biology, Physics, Chemistry, Mathematics
+
+================================================================================
+6. EXPERIENCE & LEADERSHIP
+================================================================================
+
+--- Experience 1 ---
+Job Title: Research Intern
+Company/Organization: IHYA LAB, UET Lahore
+Duration: Summer 2024
+Description:
+- Extracted and analyzed vital health data from smart bands
+- Optimized signal processing workflows for wearable sensors
+
+--- Experience 2 ---
+Job Title: Intern Engineer
+Company/Organization: DAWN Foods (Muridke Plant)
+Duration: Summer 2023
+Description:
+- Analyzed automated production lines
+- Debugged real-time PLC/Machine faults to reduce manufacturing downtime
+
+--- Experience 3 ---
+Job Title: Technical & Outreach Director / Head of Robotics
+Company/Organization: Mechatronics Club & IET On Campus, UET Lahore
+Duration: 2022 – Present
+Description:
+- Spearheaded 3 major outreach programs (2 at GCU, 1 at Deaf Foundation) to promote STEM education
+- Showcased engineering projects at the Lahore Science Mela (Al Khawarizmi Society)
+- Led hands-on technical workshops covering soldering, Arduino programming, and PCB design
+
+================================================================================
+7. PROJECTS
+================================================================================
+
+--- Project 1 ---
+Project Name: GRACE: Geriatric Robotic Assistance for Care and Engagement
+Category: robotics
+One-Line Description: Final Year Project – A fully autonomous service robot built from scratch using a custom Master-Slave architecture
+Detailed Description:
+  Autonomy & Vision: Implemented Nav2 SLAM on a Jetson Orin Nano. Deployed PyTorch
+  CNN-RNN pipelines for video-based activity recognition and MediaPipe for advanced
+  human posture detection using Intel RealSense. Integrated an A2M7 RPlidar, RGB-D
+  camera, and ultrasonic sensors.
+  Embedded Control: Bridged AI with physical actuators using STM32/ESP32 via micro-ROS.
+  Designed custom closed-loop velocity control for repurposed BLDC hoverboard motors.
+  Interfaces with biosensors and 3 air-quality sensors for contextual patient monitoring.
+  Mechanical Design: Designed a 19-part custom chassis in SolidWorks optimized for
+  DFA/DFM principles, utilizing 8 metal-gear servos for articulation.
+Technologies Used: ROS 2, Python, PyTorch, OpenCV, Jetson Orin Nano, STM32, ESP32, SolidWorks, micro-ROS
+Your Role: Lead Developer (Team Project)
+
+--- Project 2 ---
+Project Name: CNC Pen Plotter with PRM Path Planning
+Category: robotics
+One-Line Description: Engineered and fabricated a 2-Axis CNC Pen Plotter from scratch with Probabilistic Roadmap implementation
+Technologies Used: Arduino, CNC, CAD, PRM
+
+--- Project 3 ---
+Project Name: 6-DOF Robotic Arm Control
+Category: robotics
+One-Line Description: Computed forward/inverse kinematics to control a 6-DOF Robotic Arm
+Technologies Used: Python, ROS, MATLAB, SolidWorks
+
+--- Project 4 ---
+Project Name: LQR Controller for Chassis Stability
+Category: robotics
+One-Line Description: Derived state-space models and implemented LQR controller in ROS 2, validating 30kg chassis stability via Gazebo
+Technologies Used: ROS 2, Gazebo, MATLAB, Python
+
+--- Project 5 ---
+Project Name: SCARA Manipulator Simulation & Robot Motion Control
+Category: robotics
+One-Line Description: Simulated SCARA Manipulators; developed Robot Motion Control in MATLAB using PRM and A* algorithms
+Technologies Used: MATLAB, Path Planning (PRM, A*)
+
+--- Project 6 ---
+Project Name: Line-Following, Obstacle-Avoidance, Remote-Controlled & Surveillance Vehicles
+Category: hardware
+One-Line Description: Built multiple autonomous and RC vehicles with custom PCBs
+Technologies Used: Arduino, PCB Design, Sensors
+
+--- Project 7 ---
+Project Name: Knight's Dominance & Rubik's Cube Solver
+Category: ai
+One-Line Description: Solved the Knight's Dominance Problem using Genetic Algorithms (C/C++/Python) and built a Rubik's Cube Solver in Python
+Technologies Used: C, C++, Python, Genetic Algorithms
+
+--- Project 8 ---
+Project Name: Urdu Alphabet Recognition & Voice Recognition App
+Category: ai
+One-Line Description: Developed an Urdu Alphabet Recognition System and a Voice Recognition App with custom GUI in MATLAB using MFCCs
+Technologies Used: MATLAB, Signal Processing, MFCCs
+
+--- Project 9 ---
+Project Name: Live Web Dashboards with TIVA Communication
+Category: web
+One-Line Description: Built Live and Interactive Web Dashboards using Python, including one communicating with TIVA to validate RPM of a BLDC motor
+Technologies Used: Python, Web, TIVA C, Embedded
+
+--- Project 10 ---
+Project Name: PLC Automated Punching System
+Category: hardware
+One-Line Description: Implemented PLC Ladder Diagram to control an automated punching system with industrial pneumatic cylinders
+Technologies Used: PLC, Ladder Logic, Industrial Pneumatics
+
+--- Project 11 ---
+Project Name: Face Security System
+Category: ai
+One-Line Description: Built a Face Security System using Jetson Nano and computer vision
+Technologies Used: Python, OpenCV, Jetson Nano
+
+--- Project 12 ---
+Project Name: BLDC Motor Control (Bare-Metal) & Fan Vibration Analyzer
+Category: hardware
+One-Line Description: Programmed TIVA C in Bare-Metal C for BLDC motor; built an Arduino Fan Speed/Vibration Analyzer
+Technologies Used: TIVA C, Bare-Metal C, Arduino
+
+--- Project 13 ---
+Project Name: Projectile Launcher & Digital Clock/Temperature System
+Category: hardware
+One-Line Description: Built a Projectile Launcher with TIVA programming and a Digital Clock/Temperature system using 7-segment displays
+Technologies Used: TIVA C, Arduino, 7-Segment Displays
+
+--- Project 14 ---
+Project Name: Waiter Robot & Bridge Rectifier PCB
+Category: hardware
+One-Line Description: Developed a Waiter Robot with Digital Logic PCB and a Bridge Rectifier PCB
+Technologies Used: Digital Logic, PCB Design
+
+--- Project 15 ---
+Project Name: Python Calculator GUI
+Category: web
+One-Line Description: Built a Python-Based Calculator with GUI
+Technologies Used: Python, GUI
+
+================================================================================
+8. ACHIEVEMENTS / AWARDS / HONORS & GLOBAL EXPOSURE
+================================================================================
+
+Achievement 1: DAAD Sponsored Exchange (2024) – Fully-funded Robotics Week at THWS, Germany. Won the Conceptual Excellence Award in the Maze Navigation Challenge. Visited Schweinfurt, Bamberg, Nuremberg, Munich, and the Prince-Bishop Residence in Würzburg.
+Achievement 2: Global & Industrial Tours – Toured the Deutsches Museum, SACHS Ausstellung (Exhibition), and Schaeffler's bearing manufacturing plant in Germany. Networked with BMW alumni and TUM PhD students. In Pakistan, visited the SNGPL Plant and Haval Car Manufacturing Plant.
+Achievement 3: UET Merit Scholarship (2022-2024)
+Achievement 4: Honhaar Scholarship (2025-2026)
+Achievement 5: STEP High Achiever Scholarship (2022-2026) – Secured 6th position overall in STEP Academy ECAT exam, earning 50,000 PKR/year scholarship for four years.
+Achievement 6: ECAT Merit Scholarship – Secured 6th position overall.
+Achievement 7: Consistently received merit-based scholarships since the first semester for academic excellence.
+
+================================================================================
+9. LANGUAGES
+================================================================================
+
+Language 1: Urdu – Mother Tongue
+Language 2: English – Proficient (B2) – Medium of Instruction Certificate
+Language 3: German – Elementary (A1) – Self-taught via Duolingo
+Language 4: Chinese – Elementary (A1) – HSK-1 University Course
+
+================================================================================
+10. PERSONAL INTERESTS
+================================================================================
+
+Interest 1: Playing Snooker
+Interest 2: Playing Chess
+
+================================================================================
+11. CONTACT SECTION
+================================================================================
+
+Contact Heading: Let's Build Something Amazing
+Contact Message: I'm currently open to new opportunities and collaborations. Whether you have a project idea, a question, or just want to say Salaam — feel free to reach out!
+
+================================================================================
+12. WEBSITE PREFERENCES
+================================================================================
+
+Preferred Color Scheme: Dark theme with indigo/violet/cyan accents
+Any Specific Animations You Like?: Particle background, typing effect, scroll reveals
+Any Website You Want Me to Take Inspiration From?:
+Anything Else You Want on the Site?: Download CV and Resume buttons, separate website folder
+
+================================================================================
+END OF FORM - All information filled!
+================================================================================

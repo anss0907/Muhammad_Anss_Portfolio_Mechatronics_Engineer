@@ -1,0 +1,203 @@
+Personal Details & Contact Information
+Full Name: Muhammad Anss
+
+Location: Lahore, Punjab, Pakistan (Domicile: Lahore)
+
+Date of Birth: July 9, 2003
+
+Education
+Intermediate (Pre-Engineering)
+
+Institution: Punjab College of Commerce (Chouburji Campus), Lahore
+
+Board: Board of Intermediate & Secondary Education, Lahore
+
+Year of Completion: 2022
+
+Marks Obtained: 949/1100 
+
+Core Subjects: Mathematics, Physics, Chemistry
+
+Secondary School Certificate (Matriculation - Science)
+
+Institution: American Lycetuff Junior and Upper High School for Boys, Lahore
+
+Board: Board of Intermediate & Secondary Education, Lahore
+
+Year of Completion: 2020
+
+Marks Obtained: 969/1100 
+
+Core Subjects: Biology, Physics, Chemistry, Mathematics
+
+
+place this information in form txt file
+and 
+here's some more information
+
+Gemini said
+Muhammad Anss
+Professional Summary
+Forward-thinking Mechatronics and Control Engineering student with a top-ranking 3.83 CGPA and a strong foundation in mathematics. Passionate about autonomous systems, ROS 2, and embedded electronics. Currently developing an advanced, vision-capable mobile robot for geriatric care, combining hardware integration with sophisticated human-robot interaction.
+
+Education
+
+B.S. Mechatronics and Control Engineering
+
+University of Engineering and Technology (UET), Lahore | Dec 2022 – Present
+
+Current Status: 7th Semester (3rd Year)
+
+CGPA: 3.83/4.0 (Highest in the department)
+
+Academic Achievements & Awards
+
+DAAD Sponsored Academic Exchange: Selected for a 1-week academic trip to Germany, invited by THWS (Technical University of Schweinfurt and Würzburg). Visited key industrial and cultural sites across five cities, expanding international academic perspectives.
+
+STEP High Achiever Scholarship: Awarded by Punjab Group of Colleges (currently receiving the 3rd annual installment).
+
+ECAT Merit Scholarship: Secured 6th position overall in the STEP Academy ECAT exam, earning a 50,000 PKR/year scholarship for four years.
+
+Technical Projects
+
+GRACE (Geriatric Robotic Care) – Final Year Project
+
+Designing and building a mobile assistant robot aimed at monitoring and supporting the elderly.
+
+Core Systems: Implementing SLAM (Simultaneous Localization and Mapping), human following, posture detection, and machine vision.
+
+Interaction & Data: Integrating biosensors and 3 air-quality sensors to trigger contextual reactions (e.g., verbal alerts, exercise suggestions). Features voice-commanded social media management and daily reminders.
+
+Hardware Stack: Powered by a Jetson Orin Nano Super 8GB and STM32L475E microcontroller. Integrated with an A2M7 RPlidar, RGB-D and standard cameras, ultrasonic sensors, an LCD interface, and driven by BLDC hoverboard motors with an independent power system.
+
+Core Competencies & Skills
+
+Robotics & Software: ROS 2, SLAM, Odometry, Machine Vision, Human-Robot Interaction (HRI), Path Planning.
+
+Hardware & Embedded: NVIDIA Jetson Orin Nano, STM32 architecture, Lidar, RGB-D Cameras, Sensor integration, Actuators (Servos, BLDC).
+
+Analytical: Strong mathematical aptitude and problem-solving skills.
+
+
+just add all this information in the form txt and the website then we will move on
+and modify the tag line too?
+i have added some information in the form txt too add that too format properly too add a button to download my cv C:\Users\MUHAMMAD ANSS\Desktop\Portfolio\Europass CV Muhammad Anss.pdf but with name Muhammad_Anss_cv
+and my resume C:\Users\MUHAMMAD ANSS\Desktop\Portfolio\MuhammadAnss_Resume.pdf with the different name 
+and let the things used in webstie separate form my iniital different file place all of them in a separate folder
+other things i will add later
+And ehre some more information
+
+
+Muhammad AnssMechatronics & Control Engineer 
+Lahore, Pakistan | +92 331 4293657 | muhammadanss0907@gmail.com 
+LinkedIn: linkedin.com/in/muhammad-anss-6a6207281 | GitHub: github.com/anss0907 PROFESSIONAL SUMMARY Dedicated Mechatronics Engineering student (Rank 1st, 3.84 CGPA) who loves building real-world robotic systems from scratch. I enjoy combining mechanical design, electronics, and coding to solve practical problems. With hands-on experience in autonomous navigation, PLC automation, and AI, I actively share my technical skills through community workshops and love learning from global engineering environments. EDUCATION University of Engineering and Technology (UET), Lahore BS Mechatronics and Control Engineering (Dec 2022 - Present) 
+CGPA: 3.84/4.00 (Rank: 1st in Department/Batch) | Medium of Instruction: English Punjab College of Commerce, LahoreIntermediate (Pre-Engineering) | 2022 | Marks: 949/1100 (A+)American Lycetuff, LahoreMatriculation (Science) | 2020 | Marks: 969/1100 (A+)HONORS & GLOBAL EXPOSURE DAAD Sponsored Exchange (2024): Fully-funded Robotics Week at THWS, Germany. Won the Conceptual Excellence Award in the Maze Navigation Challenge.  Visited Schweinfurt, Bamberg (featuring the famous lock bridge), Nuremberg, Munich, and the Prince-Bishop Residence in Würzburg.Global & Industrial Tours: Toured the Deutsches Museum, SACHS Ausstellung (Exhibition), and Schaeffler's bearing manufacturing plant in Germany. Networked with BMW alumni and TUM PhD students. In Pakistan, gained large-scale industrial insights by visiting the SNGPL Plant and Haval Car Manufacturing Plant. Scholarships: UET Merit Scholarship (2022-2024) , Honhaar Scholarship (2025-2026) , STEP High Achiever (2022-2026) (Secured 6th position overall).
+TECHNICAL SKILLS Robotics & Kinematics: ROS 2 (Humble), ROS 1, Nav2, SLAM, TF2, Gazebo, 6-DOF Robot Kinematics/Dynamics. Control & PLC Automation: PID, LQR, State-Space, Industrial Pneumatics, PLC Programming (All 5 Languages, Ladder Logic). Embedded & Hardware: Jetson Orin Nano Super, STM32 (HAL), TIVA C (Bare Metal), Raspberry Pi, Arduino. Programming & AI: C++, Python, MATLAB, PyTorch (CNN-RNN), OpenCV, Machine Learning, Digital Signal Processing. CAD & Manufacturing: SolidWorks (Stress/Motion Analysis), AutoCAD, CNC Machining, PCB Design (Proteus). EXPERIENCE IHYA LAB, UET Lahore | Research Intern (Summer 2024) Extracted and analyzed vital health data from smart bands, optimizing signal processing workflows for wearable sensors. DAWN Foods (Muridke Plant) | Intern Engineer (Summer 2023) Analyzed automated production lines and debugged real-time PLC/Machine faults to reduce manufacturing downtime. Mechatronics Club & IET On Campus | Technical & Outreach Director / Head Outreach (2022-Present) Spearheaded 3 major outreach programs (2 at GCU, 1 at Deaf Foundation) to promote STEM education. Showcased engineering projects at the Lahore Science Mela (Al Khawarizmi Society) and led hands-on technical workshops covering soldering, Arduino programming, and PCB design for junior students and attendees. CORE ENGINEERING PROJECTS GRACE: Geriatric Robotic Assistance for Care and Engagement (Final Year Project) Autonomy & Vision: Implemented Nav2 SLAM on a Jetson Orin Nano. Deployed PyTorch CNN-RNN pipelines for video-based activity recognition and MediaPipe for advanced human posture detection using Intel RealSense.  Integrated an A2M7 RPlidar, RGB-D camera, and ultrasonic sensors.Embedded Control: Bridged AI with physical actuators using STM32/ESP32 via micro-ROS. Designed custom closed-loop velocity control for repurposed BLDC hoverboard motors.  Interfaces with biosensors and 3 air-quality sensors for contextual patient monitoring.Mechanical Design: Designed a 19-part custom chassis in SolidWorks optimized for DFA/DFM principles, utilizing 8 metal-gear servos for articulation.Robotics, Control & Path Planning: Engineered and fabricated a 2-Axis CNC Pen Plotter entirely from scratch. Computed forward/inverse kinematics to control the movement of a 6-DOF Robotic Arm. Derived state-space models and implemented an LQR controller in ROS 2, validating 30kg chassis stability via Gazebo. Simulated SCARA Manipulators; developed Robot Motion Control in MATLAB using PRM and A* algorithms. Industrial Automation & Embedded Systems: Implemented a PLC Ladder Diagram to control an automated punching system utilizing industrial pneumatic cylinders. Built a Voice Recognition App with a custom GUI in MATLAB utilizing Mel-Frequency Cepstral Coefficients (MFCCs). Programmed a TIVA C Series in Bare-Metal C to drive a BLDC motor; built an Arduino Fan Vibration Analyzer. Solved the Knight Dominant Problem using Genetic Algorithms (C) and built a Face Security System (Jetson Nano). 
+
+Gemini said
+Here is the final, fully integrated master text for your e-portfolio! I have merged all the fresh details from this latest document—including your new Python projects, data science libraries, and exact matric/inter percentages—with the massive foundation we built previously. As requested, the certifications section has been completely removed.
+
+Muhammad Anss
+Mechatronics & Control Engineer / Master's Candidate
+Lahore, Pakistan | +92 331 429 3657 | muhammadanss0907@gmail.com
+LinkedIn: linkedin.com/in/muhammad-anss-6a6207281 | GitHub: github.com/anss0907
+Date of Birth: July 9, 2003
+
+PROFESSIONAL SUMMARY
+Dedicated Mechatronics Engineering student (Rank 1st, 3.84 CGPA) who loves building real-world robotic systems from scratch. I enjoy combining mechanical design, electronics, and coding to solve practical problems, building a strong foundation in automation, embedded systems, and intelligent control. With hands-on experience in autonomous navigation, PLC automation, and AI, I actively share my technical skills through community workshops and love learning from global engineering environments. Highly motivated to continue learning and contribute to cutting-edge engineering solutions.
+
+EDUCATION
+
+University of Engineering and Technology (UET), Lahore
+BS Mechatronics and Control Engineering (Dec 2022 - Present)
+CGPA: 3.84/4.00 (Rank: 1st in Department/Batch) | Medium of Instruction: English
+Key Subjects: Control Systems, Robotics, Embedded Systems, Data Structures and Algorithms, Mechanism and Machine Design, Probability and Statistics.
+
+Punjab College of Commerce, Lahore
+Intermediate, FSC | 2022 | Marks: 949/1100 (88%).
+
+American Lycetuff, Lahore
+Matriculation in Science | 2020 | Marks: 969/1100 (86%).
+
+HONORS, GLOBAL EXPOSURE & SCHOLARSHIPS
+
+DAAD Sponsored Exchange (2024): Fully-funded Robotics Week at THWS, Germany. Won the Conceptual Excellence Award in the Maze Navigation Challenge. Visited Schweinfurt, Bamberg, Nuremberg, Munich, and the Prince-Bishop Residence in Würzburg.
+
+Global & Industrial Tours: Toured the Deutsches Museum, SACHS Ausstellung (Exhibition), and Schaeffler's bearing manufacturing plant in Germany. Networked with BMW alumni and TUM PhD students. In Pakistan, gained large-scale industrial insights by visiting the SNGPL Plant and Haval Car Manufacturing Plant.
+
+Scholarships: Consistently received merit-based scholarships since the first semester for academic excellence. UET Merit Scholarship (2022-2024), Honhaar Scholarship (2025-2026), STEP High Achiever (2022-2026), ECAT Merit Scholarship (Secured 6th position overall).
+
+TECHNICAL & DIGITAL SKILLS
+
+Robotics & Kinematics: ROS 2 (Humble), ROS 1, Nav2, SLAM, TF2, Gazebo, 6-DOF Robot Kinematics/Dynamics, Path Planning.
+
+Control & Automation: PID, LQR, State-Space, Industrial Pneumatics, PLC Programming, Control Algorithms.
+
+Hardware: Jetson Orin Nano Super, Jetson Nano, STM32 (HAL), TIVA C (Bare Metal) / TM4C123GH6PM, Raspberry Pi, Arduino Uno, ESP32, ESP8266.
+
+Programming, Data & AI: C++, Python, R, MATLAB, PyTorch, OpenCV, MediaPipe, pandas, Scikit-learn, Scipy, Numpy, Matplotlib, Machine Learning, Digital Signal Processing, Voice Processing.
+
+CAD, Simulation & Mechanical: SolidWorks, AutoCAD, Simulink, Simscape, CNC Machining, PCB Design (Proteus, EasyEDA).
+
+LANGUAGES
+
+Urdu: Mother Tongue
+
+English: Proficient (B2) - Medium of Instruction Certificate
+
+German: Elementary (A1) - Self-taught via Duolingo
+
+Chinese: Elementary (A1) - HSK-1 University Course
+
+EXPERIENCE & LEADERSHIP
+
+IHYA LAB, UET Lahore | Research Intern (Summer 2024)
+Extracted and analyzed vital health data from smart bands, optimizing signal processing workflows for wearable sensors.
+
+DAWN Foods (Muridke Plant) | Intern Engineer (Summer 2023)
+Analyzed automated production lines and debugged real-time PLC/Machine faults to reduce manufacturing downtime.
+
+Mechatronics Club & IET On Campus | Technical & Outreach Director / Head of Robotics (2022-Present)
+Spearheaded 3 major outreach programs (2 at GCU, 1 at Deaf Foundation) to promote STEM education. Showcased engineering projects at the Lahore Science Mela and led hands-on technical workshops.
+
+CORE ENGINEERING PROJECTS
+
+GRACE: Geriatric Robotic Assistance for Care and Engagement (Final Year Project)
+
+Description: A fully autonomous service robot built from scratch using a custom Master-Slave architecture.
+
+Autonomy & Vision: Implemented Nav2 SLAM on a Jetson Orin Nano. Deployed PyTorch CNN-RNN pipelines for activity recognition and MediaPipe for human posture detection using Intel RealSense. Integrated an A2M7 RPlidar, RGB-D camera, and ultrasonic sensors.
+
+Control: Bridged AI with physical actuators using STM32/ESP32 via micro-ROS. Designed custom closed-loop velocity control for repurposed BLDC hoverboard motors. Interfaces with biosensors and 3 air-quality sensors.
+
+Hardware: Designed a 19-part custom chassis in SolidWorks optimized for DFA/DFM principles, utilizing 8 metal-gear servos.
+
+Robotics, Control & Path Planning
+
+Engineered a CNC Pen Plotter from scratch and implemented Probabilistic Roadmap (PRM) on it.
+
+Computed forward/inverse kinematics for a Robotic Manipulator and simulated a SCARA Robot.
+
+Derived state-space models and implemented an LQR controller in ROS 2, validating 30kg chassis stability via Gazebo.
+
+Built Line-Following, Obstacle-Avoidance, Remote-Controlled, and Surveillance vehicles with PCBs.
+
+Software, Data & AI Integration
+
+Solved the Knight's Dominance Problem using a Genetic Algorithm in C/C++ and Python, and built a Rubik's Cube Solver using Python.
+
+Developed an Urdu Alphabet Recognition System and a Voice Recognition App in MATLAB.
+
+Built Live and Interactive Web Dashboards using Python, including one communicating with TIVA to validate RPM of a BLDC motor.
+
+Built a Python-Based Calculator GUI and a Face Security System on Jetson Nano.
+
+Industrial Automation & Embedded Systems
+
+Implemented a PLC Ladder Diagram to control an automated punching system utilizing industrial pneumatic cylinders.
+
+Built a Projectile Launcher with Programming on TIVA, an Arduino Fan Speed Analyzer, and a Digital Clock/Temperature System using 7-segment displays.
+
+Developed a Waiter Robot with Digital Logic PCB and a Bridge Rectifier PCB.
+
+i love to play snooker and chess.
