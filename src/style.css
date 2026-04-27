@@ -1191,6 +1191,11 @@ body {
 }
 
 @media (max-width: 768px) {
+  :root {
+    --section-padding: 50px 0;
+    --nav-height: 56px;
+  }
+
   .nav-links {
     display: none;
     position: fixed;
@@ -1200,8 +1205,8 @@ body {
     background: rgba(10, 10, 15, 0.95);
     backdrop-filter: blur(var(--glass-blur));
     flex-direction: column;
-    padding: 24px;
-    gap: 4px;
+    padding: 16px;
+    gap: 2px;
     border-bottom: 1px solid var(--border-glass);
   }
 
@@ -1223,33 +1228,263 @@ body {
     transform: rotate(-45deg) translate(5px, -5px);
   }
 
+  /* ---- HERO compact ---- */
   .hero-name {
+    font-size: 2.4rem;
     letter-spacing: -1px;
+    margin-bottom: 10px;
   }
 
-  .about-stats {
-    gap: 24px;
-    flex-wrap: wrap;
+  .hero-greeting {
+    font-size: 0.85rem;
+    margin-bottom: 6px;
   }
 
-  .skills-grid {
-    grid-template-columns: repeat(2, 1fr);
+  .hero-tagline {
+    font-size: 0.9rem;
+    margin-bottom: 10px;
   }
 
-  .projects-grid {
-    grid-template-columns: 1fr;
+  .hero-email {
+    font-size: 0.8rem;
+    margin-bottom: 10px;
   }
-}
 
-@media (max-width: 480px) {
+  .hero-description {
+    font-size: 0.88rem;
+    margin-bottom: 24px;
+    line-height: 1.6;
+  }
+
   .hero-cta {
+    gap: 10px;
     flex-direction: column;
     align-items: center;
   }
 
   .btn {
+    padding: 10px 24px;
+    font-size: 0.85rem;
     width: 100%;
     justify-content: center;
+  }
+
+  .hero-scroll-indicator {
+    display: none;
+  }
+
+  /* ---- SECTION TITLES compact ---- */
+  .section-title {
+    font-size: 1.3rem;
+    margin-bottom: 28px;
+  }
+
+  .container {
+    padding: 0 14px;
+  }
+
+  /* ---- ABOUT compact ---- */
+  .about-image-frame {
+    width: 160px;
+    height: 200px;
+  }
+
+  .about-text p {
+    font-size: 0.88rem;
+    margin-bottom: 10px;
+  }
+
+  .about-stats {
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    padding-top: 20px;
+  }
+
+  .stat-number {
+    font-size: 1.6rem;
+  }
+
+  .stat-label {
+    font-size: 0.7rem;
+  }
+
+  .about-hobbies {
+    margin-top: 16px;
+    padding-top: 16px;
+  }
+
+  /* ---- SKILLS compact 2-col ---- */
+  .skills-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+
+  .skill-card {
+    padding: 14px;
+  }
+
+  .skill-icon {
+    width: 32px;
+    height: 32px;
+    border-radius: 8px;
+    margin-bottom: 8px;
+  }
+
+  .skill-icon svg {
+    width: 18px;
+    height: 18px;
+  }
+
+  .skill-card h3 {
+    font-size: 0.82rem;
+    margin-bottom: 8px;
+  }
+
+  .tag {
+    font-size: 0.62rem;
+    padding: 3px 7px;
+  }
+
+  .skill-tags {
+    gap: 4px;
+  }
+
+  .see-more-btn {
+    font-size: 0.62rem;
+    padding: 3px 10px;
+    margin-top: 6px;
+  }
+
+  /* ---- TIMELINE compact ---- */
+  .timeline-item {
+    padding-bottom: 30px;
+  }
+
+  .timeline-card {
+    padding: 14px;
+  }
+
+  .timeline-date {
+    font-size: 0.68rem;
+  }
+
+  .timeline-card h3 {
+    font-size: 0.9rem;
+    margin: 4px 0;
+  }
+
+  .timeline-place {
+    font-size: 0.8rem;
+    margin-bottom: 4px;
+  }
+
+  .timeline-desc {
+    font-size: 0.8rem;
+  }
+
+  .timeline-highlight {
+    font-size: 0.8rem;
+    margin-bottom: 4px;
+  }
+
+  .timeline-list li {
+    font-size: 0.8rem;
+    padding: 2px 0;
+  }
+
+  /* ---- PROJECTS compact 2-col ---- */
+  .projects-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+
+  .project-image {
+    height: 100px;
+  }
+
+  .project-info {
+    padding: 12px;
+  }
+
+  .project-badge {
+    font-size: 0.6rem;
+    padding: 2px 8px;
+    margin-bottom: 6px;
+  }
+
+  .project-info h3 {
+    font-size: 0.85rem;
+    margin-bottom: 4px;
+  }
+
+  .project-info p {
+    font-size: 0.75rem;
+    margin-bottom: 8px;
+    line-height: 1.5;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
+  .project-tech {
+    gap: 4px;
+  }
+
+  .project-tech span {
+    font-size: 0.6rem;
+    padding: 2px 6px;
+  }
+
+  /* ---- ACHIEVEMENTS compact 2-col ---- */
+  .achievements-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+
+  .achievement-card {
+    padding: 16px;
+  }
+
+  .achievement-icon {
+    font-size: 1.6rem;
+    margin-bottom: 8px;
+  }
+
+  .achievement-card h3 {
+    font-size: 0.88rem;
+    margin-bottom: 6px;
+  }
+
+  .achievement-card p {
+    font-size: 0.78rem;
+    line-height: 1.5;
+  }
+
+  /* ---- CONTACT compact ---- */
+  .contact-text h3 {
+    font-size: 1.3rem;
+  }
+
+  .contact-text p {
+    font-size: 0.88rem;
+    margin-bottom: 20px;
+  }
+
+  .contact-info-item {
+    font-size: 0.85rem;
+    word-break: break-word;
+  }
+
+  .contact-form {
+    gap: 14px;
+  }
+
+  .form-group input,
+  .form-group textarea {
+    padding: 12px 14px;
+    font-size: 0.88rem;
   }
 }
 
@@ -1277,109 +1512,94 @@ body {
   color: var(--accent-4);
 }
 
-/* ===== MOBILE OVERFLOW FIXES (390px iPhone) ===== */
-@media (max-width: 480px) {
-  /* Prevent any horizontal overflow */
+/* ===== EXTRA SMALL (390px iPhone) ===== */
+@media (max-width: 420px) {
   html, body {
     overflow-x: hidden;
   }
 
-  .container {
-    padding: 0 16px;
+  .hero-name {
+    font-size: 2rem;
   }
 
-  /* Skill tags — allow wrapping and prevent overflow */
   .skills-grid {
-    grid-template-columns: 1fr;
-  }
-
-  .tag {
-    font-size: 0.75rem;
-    padding: 5px 10px;
-    max-width: 100%;
-    white-space: normal;
-    word-break: break-word;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 8px;
   }
 
   .skill-card {
-    padding: 20px;
+    padding: 10px;
   }
 
-  /* Project cards — prevent tech tags overflow */
+  .skill-card h3 {
+    font-size: 0.75rem;
+  }
+
+  .tag {
+    font-size: 0.58rem;
+    padding: 2px 6px;
+  }
+
   .projects-grid {
-    grid-template-columns: 1fr;
-    gap: 20px;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 8px;
   }
 
-  .project-tech {
-    gap: 6px;
-  }
-
-  .project-tech span {
-    font-size: 0.7rem;
-    padding: 3px 8px;
-    white-space: normal;
-    word-break: break-word;
+  .project-image {
+    height: 80px;
   }
 
   .project-info {
-    padding: 16px;
+    padding: 10px;
   }
 
   .project-info h3 {
-    font-size: 1rem;
+    font-size: 0.78rem;
   }
 
   .project-info p {
-    font-size: 0.85rem;
+    font-size: 0.7rem;
+    -webkit-line-clamp: 2;
   }
 
-  /* Timeline cards — prevent overflow from long text */
+  .project-tech span {
+    font-size: 0.55rem;
+    padding: 2px 5px;
+  }
+
+  .timeline-item {
+    padding-left: 44px;
+  }
+
   .timeline-card {
-    padding: 16px;
+    padding: 10px;
   }
 
-  .timeline-card h3 {
-    font-size: 1rem;
-    word-break: break-word;
+  .section-title {
+    font-size: 1.2rem;
+    margin-bottom: 22px;
   }
 
-  .timeline-list li {
-    font-size: 0.85rem;
-    word-break: break-word;
-  }
-
-  /* Achievement cards */
   .achievements-grid {
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 8px;
   }
 
   .achievement-card {
-    padding: 20px;
+    padding: 12px;
   }
 
-  /* Hero section */
-  .hero-email {
-    font-size: 0.85rem;
+  .achievement-icon {
+    font-size: 1.3rem;
+    margin-bottom: 6px;
   }
 
-  .hero-description {
-    font-size: 0.95rem;
+  .achievement-card h3 {
+    font-size: 0.78rem;
   }
 
-  /* Contact grid */
-  .contact-text h3 {
-    font-size: 1.4rem;
-  }
-
-  .contact-info-item {
-    font-size: 0.85rem;
-    word-break: break-word;
-  }
-
-  /* Section title */
-  .section-title {
-    font-size: 1.5rem;
-    margin-bottom: 40px;
+  .achievement-card p {
+    font-size: 0.72rem;
   }
 }
+

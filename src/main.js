@@ -724,6 +724,9 @@ function initScrollAnimations() {
     const isRight = el.classList.contains('reveal-right');
     const delay = el.dataset.delay ? el.dataset.delay * 0.1 : 0;
 
+    const isMobile = window.innerWidth < 768;
+    const triggerStart = isMobile ? 'top 110%' : 'top 95%';
+
     gsap.fromTo(el,
       {
         opacity: 0,
@@ -734,12 +737,12 @@ function initScrollAnimations() {
         opacity: 1,
         x: 0,
         y: 0,
-        duration: 0.7,
+        duration: isMobile ? 0.4 : 0.7,
         delay: delay,
         ease: 'power3.out',
         scrollTrigger: {
           trigger: el,
-          start: 'top 95%',
+          start: triggerStart,
           toggleActions: 'play none none none',
         },
       }
@@ -748,13 +751,14 @@ function initScrollAnimations() {
 
   // Section titles
   document.querySelectorAll('.section-title').forEach(title => {
+    const isMob = window.innerWidth < 768;
     gsap.fromTo(title,
       { opacity: 0, y: 30 },
       {
-        opacity: 1, y: 0, duration: 0.6, ease: 'power3.out',
+        opacity: 1, y: 0, duration: isMob ? 0.3 : 0.6, ease: 'power3.out',
         scrollTrigger: {
           trigger: title,
-          start: 'top 95%',
+          start: isMob ? 'top 110%' : 'top 95%',
         },
       }
     );
@@ -831,18 +835,34 @@ function initContactForm() {
   const form = document.getElementById('contact-form');
   if (!form) return;
 
-  form.addEventListener('submit', (e) => {
+  form.addEventListener('submit', async (e) => {
     e.preventDefault();
 
     const btn = form.querySelector('button[type="submit"]');
     const originalHTML = btn.innerHTML;
-    btn.innerHTML = '<span>Sent! ✓</span>';
+    btn.innerHTML = '<span>Sending...</span>';
     btn.style.pointerEvents = 'none';
+
+    try {
+      const res = await fetch(form.action, {
+        method: 'POST',
+        body: new FormData(form),
+        headers: { 'Accept': 'application/json' },
+      });
+
+      if (res.ok) {
+        btn.innerHTML = '<span>Sent! ✓</span>';
+        form.reset();
+      } else {
+        btn.innerHTML = '<span>Error — try again</span>';
+      }
+    } catch {
+      btn.innerHTML = '<span>Error — try again</span>';
+    }
 
     setTimeout(() => {
       btn.innerHTML = originalHTML;
       btn.style.pointerEvents = '';
-      form.reset();
     }, 2500);
   });
 }
