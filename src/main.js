@@ -921,6 +921,57 @@ function initParallax() {
   });
 }
 
+// ===== SKILL CARD COLLAPSE / EXPAND =====
+function initSkillCollapse() {
+  const collapsibleCards = document.querySelectorAll('.skill-card[data-collapse]');
+
+  collapsibleCards.forEach(card => {
+    const limit = parseInt(card.dataset.collapse);
+    const tags = card.querySelectorAll('.tag');
+    const btn = card.querySelector('.see-more-btn');
+
+    // Hide tags beyond the limit
+    tags.forEach((tag, i) => {
+      if (i >= limit) {
+        tag.classList.add('tag-hidden');
+      }
+    });
+
+    // Count hidden tags
+    const hiddenCount = tags.length - limit;
+    if (btn && hiddenCount > 0) {
+      btn.textContent = `See More (+${hiddenCount}) ▾`;
+    } else if (btn) {
+      btn.style.display = 'none'; // No hidden tags, no button needed
+    }
+
+    // Toggle on button click
+    if (btn) {
+      btn.addEventListener('click', (e) => {
+        e.stopPropagation();
+        card.classList.toggle('expanded');
+        if (card.classList.contains('expanded')) {
+          btn.textContent = 'Show Less ▴';
+        } else {
+          btn.textContent = `See More (+${hiddenCount}) ▾`;
+        }
+      });
+    }
+
+    // Also expand on hover (desktop only)
+    if (window.innerWidth >= 768) {
+      card.addEventListener('mouseenter', () => {
+        card.classList.add('expanded');
+        if (btn) btn.textContent = 'Show Less ▴';
+      });
+      card.addEventListener('mouseleave', () => {
+        card.classList.remove('expanded');
+        if (btn) btn.textContent = `See More (+${hiddenCount}) ▾`;
+      });
+    }
+  });
+}
+
 // ===== INITIALIZE =====
 document.addEventListener('DOMContentLoaded', () => {
   new ParticleBackground();
@@ -933,6 +984,7 @@ document.addEventListener('DOMContentLoaded', () => {
   initSmoothScroll();
   initTypingEffect();
   initParallax();
+  initSkillCollapse();
 
   // Final safety refresh after everything loads (images, fonts, etc.)
   window.addEventListener('load', () => {

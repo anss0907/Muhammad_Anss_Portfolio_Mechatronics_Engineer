@@ -488,15 +488,15 @@ body {
 /* ===== SKILLS ===== */
 .skills-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 24px;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 18px;
 }
 
 .skill-card {
   background: var(--bg-card);
   border: 1px solid var(--border-glass);
   border-radius: var(--border-radius);
-  padding: 32px;
+  padding: 22px;
   transition: var(--transition-mid);
   position: relative;
   overflow: hidden;
@@ -525,33 +525,38 @@ body {
 }
 
 .skill-icon {
-  width: 56px;
-  height: 56px;
+  width: 44px;
+  height: 44px;
   display: flex;
   align-items: center;
   justify-content: center;
   background: var(--gradient-card);
-  border-radius: 12px;
-  margin-bottom: 20px;
+  border-radius: 10px;
+  margin-bottom: 14px;
   color: var(--accent-3);
+}
+
+.skill-icon svg {
+  width: 24px;
+  height: 24px;
 }
 
 .skill-card h3 {
   font-family: var(--font-heading);
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-weight: 600;
-  margin-bottom: 16px;
+  margin-bottom: 12px;
 }
 
 .skill-tags {
   display: flex;
   flex-wrap: wrap;
-  gap: 8px;
+  gap: 6px;
 }
 
 .tag {
-  font-size: 0.8rem;
-  padding: 6px 14px;
+  font-size: 0.72rem;
+  padding: 4px 10px;
   background: var(--bg-glass);
   border: 1px solid var(--border-glass);
   border-radius: 50px;
@@ -562,6 +567,41 @@ body {
 .skill-card:hover .tag {
   border-color: var(--accent-1);
   color: var(--accent-3);
+}
+
+/* Collapsible tags — hidden tags */
+.skill-card[data-collapse] .tag.tag-hidden {
+  display: none;
+}
+
+.skill-card[data-collapse].expanded .tag.tag-hidden {
+  display: inline-flex;
+}
+
+/* See More button */
+.see-more-btn {
+  display: block;
+  margin-top: 10px;
+  padding: 4px 14px;
+  font-family: var(--font-body);
+  font-size: 0.72rem;
+  font-weight: 600;
+  color: var(--accent-4);
+  background: transparent;
+  border: 1px solid var(--accent-4);
+  border-radius: 50px;
+  cursor: pointer;
+  transition: var(--transition-fast);
+  opacity: 0.8;
+}
+
+.see-more-btn:hover {
+  background: rgba(6, 182, 212, 0.1);
+  opacity: 1;
+}
+
+.skill-card.expanded .see-more-btn {
+  opacity: 0.6;
 }
 
 /* ===== TIMELINE (Education & Experience) ===== */
@@ -1089,6 +1129,12 @@ body {
 }
 
 /* ===== RESPONSIVE ===== */
+@media (max-width: 1100px) {
+  .skills-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
 @media (max-width: 900px) {
   :root {
     --section-padding: 80px 0;
@@ -1187,7 +1233,7 @@ body {
   }
 
   .skills-grid {
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(2, 1fr);
   }
 
   .projects-grid {
@@ -1204,5 +1250,136 @@ body {
   .btn {
     width: 100%;
     justify-content: center;
+  }
+}
+
+/* ===== HERO EMAIL ===== */
+.hero-email {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 16px;
+  font-size: 0.95rem;
+}
+
+.hero-email svg {
+  color: var(--accent-4);
+  flex-shrink: 0;
+}
+
+.hero-email a {
+  color: var(--text-secondary);
+  text-decoration: none;
+  transition: var(--transition-fast);
+}
+
+.hero-email a:hover {
+  color: var(--accent-4);
+}
+
+/* ===== MOBILE OVERFLOW FIXES (390px iPhone) ===== */
+@media (max-width: 480px) {
+  /* Prevent any horizontal overflow */
+  html, body {
+    overflow-x: hidden;
+  }
+
+  .container {
+    padding: 0 16px;
+  }
+
+  /* Skill tags — allow wrapping and prevent overflow */
+  .skills-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .tag {
+    font-size: 0.75rem;
+    padding: 5px 10px;
+    max-width: 100%;
+    white-space: normal;
+    word-break: break-word;
+  }
+
+  .skill-card {
+    padding: 20px;
+  }
+
+  /* Project cards — prevent tech tags overflow */
+  .projects-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .project-tech {
+    gap: 6px;
+  }
+
+  .project-tech span {
+    font-size: 0.7rem;
+    padding: 3px 8px;
+    white-space: normal;
+    word-break: break-word;
+  }
+
+  .project-info {
+    padding: 16px;
+  }
+
+  .project-info h3 {
+    font-size: 1rem;
+  }
+
+  .project-info p {
+    font-size: 0.85rem;
+  }
+
+  /* Timeline cards — prevent overflow from long text */
+  .timeline-card {
+    padding: 16px;
+  }
+
+  .timeline-card h3 {
+    font-size: 1rem;
+    word-break: break-word;
+  }
+
+  .timeline-list li {
+    font-size: 0.85rem;
+    word-break: break-word;
+  }
+
+  /* Achievement cards */
+  .achievements-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .achievement-card {
+    padding: 20px;
+  }
+
+  /* Hero section */
+  .hero-email {
+    font-size: 0.85rem;
+  }
+
+  .hero-description {
+    font-size: 0.95rem;
+  }
+
+  /* Contact grid */
+  .contact-text h3 {
+    font-size: 1.4rem;
+  }
+
+  .contact-info-item {
+    font-size: 0.85rem;
+    word-break: break-word;
+  }
+
+  /* Section title */
+  .section-title {
+    font-size: 1.5rem;
+    margin-bottom: 40px;
   }
 }
